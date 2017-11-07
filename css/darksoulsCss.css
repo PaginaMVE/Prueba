@@ -1,0 +1,132 @@
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+    z-index: 9999;
+
+    background-color: #000;
+    border: 0;
+    font-family: "foundry_context_demidemi",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.55rem !important;
+
+    letter-spacing: 3px;
+    border-radius: 0;
+    height: 100px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	margin-top: 30%;
+    color: #999999 !important; /*gray*/
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #666600 !important; /*green*/
+}
+
+.show-for-media-up{
+	z-index: -1;
+	margin-top: -40px;
+	width: 100%;
+	height: 750px;
+	vertical-align: middle;
+}
+
+#text{
+	margin-left: 250px;
+}
+
+footer{
+  display: block;
+}
+
+#title_footer #productlogo {
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+
+#title_footer #productlogo img {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+#title_footer {
+    margin: 0;
+    padding-bottom: 10px;
+    background: #000;
+    font-family: -apple-system, ‘Helvetica Neue’, ‘Hiragino Kaku Gothic ProN’, ‘游ゴシック’, ‘メイリオ’, meiryo, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #444;
+    line-height: 1.5em;
+    border-top: 1px solid #444;
+    height: 100px;
+}
+#copyright01 {
+	margin-right: 100px;
+}
+
+.ptm{
+	margin-right: 400px;
+	margin-top: 30px;
+}
+
+.input-group{
+	margin-top: -66px;
+	width: 20%;
+	margin-left: 50%;
+}
+
+#i{
+	border: 1px solid #000;
+}
+
+.btn{
+	background-color: #999999;
+	border: 1px solid #000;
+}
+
+.btn:hover{
+	background-color: #666600;
+	border: 1px solid #000;
+}
+
+.a{
+    
+    background-color: #EFEFEF;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.title-h3 {
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.title-h3, .title-h4 {
+    font-size: 1.3vw;
+}
+
+[class*=title-] {
+    font-family: "foundry_context_bold",sans-serif;
+    line-height: 1;
+}

@@ -1,0 +1,162 @@
+body{
+	color:#fff;
+	background-color: #1e1e1e; /*gray*/
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+label{
+	color: #000;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+    z-index: 9999;
+
+    background-color: #000;
+    border: 0;
+    font-family: "foundry_context_demidemi",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.55rem !important;
+    letter-spacing: 3px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #999999 !important; /*gray*/
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #666600 !important; /*green*/
+}
+
+.a{
+	height: 400px;
+}
+
+.jumbotron {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    height: 350px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    background-color: #666600;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.thumbnail:hover{
+	background-color: #000;
+}
+
+.text{
+	padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/* Animaciones */
+.item span {
+    font-style: normal;
+}
+
+.slideanim {
+	visibility:hidden;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+footer{
+  display: block;
+}
+
+#title_footer #productlogo {
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+
+#title_footer {
+    margin: 0;
+    padding-bottom: 10px;
+    background: #000;
+    font-family: -apple-system, ‘Helvetica Neue’, ‘Hiragino Kaku Gothic ProN’, ‘游ゴシック’, ‘メイリオ’, meiryo, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #444;
+    line-height: 1.5em;
+    border-top: 1px solid #444;
+    margin-top: 50px;
+}
+#copyright01 {
+	margin-top: 10px;
+    padding-top: 10px;
+}
